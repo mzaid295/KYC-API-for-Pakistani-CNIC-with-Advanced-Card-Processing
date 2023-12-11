@@ -51,4 +51,4 @@ The KYC API for Pakistani CNICs with advanced card processing has been successfu
 
 ![Face Detection FOr Validation Of Card](https://github.com/mzaid295/KYC-API-for-Pakistani-CNIC-with-Advanced-Card-Processing/blob/main/Detected%20Face.JPG)
 ![Face Detection FOr Validation Of Card](https://github.com/mzaid295/KYC-API-for-Pakistani-CNIC-with-Advanced-Card-Processing/blob/main/Detected%20Text.JPG)
-![Face Detection FOr Validation Of Card]([https://github.com/mzaid295/KYC-API-for-Pakistani-CNIC-with-Advanced-Card-Processing/blob/main/Detected%20Text.JPG](https://github.com/mzaid295/KYC-API-for-Pakistani-CNIC-with-Advanced-Card-Processing/blob/2ac509411ec3f14effa983ddacbe9a16d2ab48a9/Dataset/Pycharm%20Result.JPG)https://github.com/mzaid295/KYC-API-for-Pakistani-CNIC-with-Advanced-Card-Processing/blob/2ac509411ec3f14effa983ddacbe9a16d2ab48a9/Dataset/Pycharm%20Result.JPG)
+![Face Detection FOr Validation Of Card](https://github.com/mzaid295/KYC-API-for-Pakistani-CNIC-with-Advanced-Card-Processing/blob/main/Dataset/Pycharm%20Result.JPG)
