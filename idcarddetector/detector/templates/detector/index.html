@@ -1,0 +1,57 @@
+{% extends 'myapp/layout.html' %}
+
+{% block body %}
+    <div class="container">
+        <br><br>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="input-group">
+                <input type="file" class="form-control" name="image_name_f" required>
+                
+            </div>
+            <div class="input-group">
+                <input type="file" class="form-control" name="image_name_b" required>
+                
+            </div>   
+            <div>
+                <input type="submit"style="border: solid black; width: 100%;" value="Upload" class="btn btn-outline-secondary">
+            </div>       
+        </form>
+    </div>
+
+    {% if upload %}
+        <div class="container">
+            <br><br>
+            <table>
+                <tr>
+                    <td>
+                        <img class="rounded float-left img-fluid" src="data-saved/Front/test06.png " alt="">
+                    </td>
+                    <td>
+                        <img class="rounded float-right img-fluid" src="/data-saved/Back/{{ upload_image2 }}" alt="">
+                    </td>
+                </tr>
+
+            </table>
+            <br>
+            <table style="border: solid black; width: 100%;">
+                <tr style="border: solid black;">
+                    <th>Cards are verified. The extracted Data is:</th>
+                    
+                </tr>
+                <tr style="border: solid black;">
+
+                    <td style="background-color: greenyellow;">
+                        <h2 class="display-8"> {{ text }}</h2>
+                    </td>
+
+                </tr>
+            </table>
+
+        </div>
+    
+    
+    
+    {% endif %}
+
+{% endblock  %}
